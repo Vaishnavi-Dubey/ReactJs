@@ -1,4 +1,4 @@
-# 🚀 React.js — Learning & Experiments
+# 🚀 React.js Mastery — Concept Library
 
 <div align="center">
 
@@ -10,68 +10,71 @@
 
 </div>
 
-> A workspace for learning and experimenting with React.js — covering core concepts like components, hooks, state management, and modern frontend patterns.
+> A comprehensive, professional-grade repository documenting React.js mastery — from fundamental JSX patterns to advanced Hooks, Global State, and Custom Logic.
 
 ---
 
 ## ✨ Key Features
 
-- ⚛️ **React Fundamentals** — Components, JSX, props, and state
-- 🪝 **Hooks Deep Dive** — useState, useEffect, useContext, and custom hooks
-- 🔄 **State Management** — Lifting state, context API, and data flow patterns
-- 🎨 **Component Patterns** — Reusable, composable component architecture
-- 📡 **API Integration** — Fetching data and handling async operations
-- 🧪 **Experimental Projects** — Hands-on mini-apps exploring React concepts
+- ⚛️ **Fundamentals** — JSX syntax, Component composition, and Props.
+- 🪝 **Hooks Mastery** — Deep dives into `useState`, `useEffect`, `useContext`, and `useReducer`.
+- 🔄 **Advanced State** — Global state management and complex action-reducer patterns.
+- 🧩 **Reusable Logic** — Implementation of Custom Hooks for modular codebase.
+- 📡 **Async Data** — Robust data fetching patterns with loading and error handling.
+- 🛠️ **Professional Patterns** — Clean, documented, and modular component architecture.
 
 ---
 
-## 🧠 Tech Stack
+## 📂 Project Structure
 
-| Component | Technology |
-|-----------|-----------|
-| **Library** | React 18+ |
-| **Language** | JavaScript (ES6+) |
-| **Build Tool** | Create React App / Vite |
-| **Styling** | CSS Modules / Inline Styles |
+```text
+ReactJs/
+├── 01-Fundamentals/    # JSX basics, Props, and Rendering
+├── 02-Hooks/           # Core and Advanced React Hooks
+├── 03-Advanced/        # Custom Hooks, Error Boundaries, etc.
+├── 04-Ecosystem/       # React Router, API integration
+├── 05-Projects/        # Integrated mini-applications
+└── README.md
+```
+
+---
+
+## 🧠 Master Concept Checklist
+
+| Concept | File | Status |
+| :--- | :--- | :---: |
+| **JSX & Props** | `01-Fundamentals/JSX_Basics.jsx` | ✅ |
+| **Local State** | `02-Hooks/UseState_Counter.jsx` | ✅ |
+| **Side Effects** | `02-Hooks/UseEffect_DataFetch.jsx` | ✅ |
+| **Global State** | `02-Hooks/UseContext_Theme.jsx` | ✅ |
+| **Complex State**| `02-Hooks/UseReducer_Todo.jsx` | ✅ |
+| **Custom Hooks** | `03-Advanced/Custom_Hook_Example.jsx` | ✅ |
 
 ---
 
 ## ⚙️ Installation & Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/Vaishnavi-Dubey/ReactJs.git
-cd ReactJs
+These files are standalone modules meant for study and reference. To use them in a project:
 
-# Install dependencies (for project directories)
-npm install
+1. Create a React app (using Vite or CRA).
+2. Copy the desired `.jsx` file into your `src/components/` directory.
+3. Import and render it in your `App.jsx`.
 
-# Start development server
-npm start
+```javascript
+import Counter from './components/UseState_Counter';
+
+function App() {
+  return <Counter />;
+}
 ```
 
 ---
 
-## ▶️ Usage
+## 📈 Impact / Highlights
 
-1. Navigate into a project directory
-2. Install dependencies: `npm install`
-3. Start the dev server: `npm start` or `npm run dev`
-4. Open `http://localhost:3000` in your browser
-
----
-
-## 📈 Impact / Learning / Highlights
-
-- 🎯 **Hands-on Learning** — Every concept backed by working code
-- ⚡ **Modern React** — Focus on functional components and hooks (no class components)
-- 🧩 **Modular Approach** — Each experiment is self-contained and referenceable
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Fork, create a branch, and submit a PR.
+- 🎯 **Pure Functional React** — Focuses entirely on modern Functional Components and Hooks.
+- 🛡️ **Clean Code** — Every concept is implemented with self-explanatory comments and logical flow.
+- 📊 **Scalable Reference** — Built to serve as a long-term reference library for React development.
 
 ---
 
